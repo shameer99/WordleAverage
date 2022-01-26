@@ -1,5 +1,5 @@
 # WordleAverage
-Adds an "Average Guesses" statistic to the viral daily word game Wordle.
+Adds an "Average Guesses" statistic to the viral daily word game [Wordle](https://www.powerlanguage.co.uk/wordle/).
 
 Built for iOS/macOS. Tested briefly on iOS. 
 Can easily be adapted to a chromium extension.
