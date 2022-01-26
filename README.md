@@ -3,3 +3,5 @@ Adds an "Average Guesses" statistic to the viral daily word game Wordle.
 
 Built for iOS/macOS. Tested briefly on iOS. 
 Can easily be adapted to a chromium extension.
+
+![IMG_0913](https://user-images.githubusercontent.com/1229823/151096393-d4e75edb-5e9b-4de0-8502-9d467ebd8409.PNG)
