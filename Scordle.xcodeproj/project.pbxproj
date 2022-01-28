@@ -13,8 +13,8 @@
 		F8386CCB27A0C65B00E1CD1D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8386CC927A0C65B00E1CD1D /* Main.storyboard */; };
 		F8386CD427A0C65B00E1CD1D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8386CD327A0C65B00E1CD1D /* AppDelegate.swift */; };
 		F8386CD727A0C65B00E1CD1D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8386CD527A0C65B00E1CD1D /* Main.storyboard */; };
-		F8386CDE27A0C65B00E1CD1D /* WordleAverage Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = F8386CDD27A0C65B00E1CD1D /* WordleAverage Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		F8386CE827A0C65B00E1CD1D /* WordleAverage Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = F8386CE727A0C65B00E1CD1D /* WordleAverage Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F8386CDE27A0C65B00E1CD1D /* Scordle Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = F8386CDD27A0C65B00E1CD1D /* Scordle Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F8386CE827A0C65B00E1CD1D /* Scordle Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = F8386CE727A0C65B00E1CD1D /* Scordle Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		F8386CEE27A0C65B00E1CD1D /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = F8386CA927A0C65900E1CD1D /* Main.html */; };
 		F8386CEF27A0C65B00E1CD1D /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = F8386CA927A0C65900E1CD1D /* Main.html */; };
 		F8386CF027A0C65B00E1CD1D /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F8386CAB27A0C65900E1CD1D /* Icon.png */; };
@@ -37,8 +37,6 @@
 		F8386D0127A0C65B00E1CD1D /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = F8386CB527A0C65A00E1CD1D /* manifest.json */; };
 		F8386D0427A0C65B00E1CD1D /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = F8386CB727A0C65A00E1CD1D /* content.js */; };
 		F8386D0527A0C65B00E1CD1D /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = F8386CB727A0C65A00E1CD1D /* content.js */; };
-		F8FEF17527A0ED63005CBD56 /* AppIcon.appiconset in Resources */ = {isa = PBXBuildFile; fileRef = F8FEF17427A0ED63005CBD56 /* AppIcon.appiconset */; };
-		F8FEF17627A0ED64005CBD56 /* AppIcon.appiconset in Resources */ = {isa = PBXBuildFile; fileRef = F8FEF17427A0ED63005CBD56 /* AppIcon.appiconset */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,7 +63,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				F8386CDE27A0C65B00E1CD1D /* WordleAverage Extension.appex in Embed App Extensions */,
+				F8386CDE27A0C65B00E1CD1D /* Scordle Extension.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -76,7 +74,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				F8386CE827A0C65B00E1CD1D /* WordleAverage Extension.appex in Embed App Extensions */,
+				F8386CE827A0C65B00E1CD1D /* Scordle Extension.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -95,22 +93,21 @@
 		F8386CB427A0C65A00E1CD1D /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
 		F8386CB527A0C65A00E1CD1D /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
 		F8386CB727A0C65A00E1CD1D /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
-		F8386CBF27A0C65B00E1CD1D /* WordleAverage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WordleAverage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8386CBF27A0C65B00E1CD1D /* Scordle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scordle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8386CC227A0C65B00E1CD1D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F8386CC427A0C65B00E1CD1D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		F8386CC727A0C65B00E1CD1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F8386CCA27A0C65B00E1CD1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F8386CCC27A0C65B00E1CD1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F8386CD127A0C65B00E1CD1D /* WordleAverage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WordleAverage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8386CD127A0C65B00E1CD1D /* Scordle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scordle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8386CD327A0C65B00E1CD1D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F8386CD627A0C65B00E1CD1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F8386CD827A0C65B00E1CD1D /* WordleAverage.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WordleAverage.entitlements; sourceTree = "<group>"; };
-		F8386CDD27A0C65B00E1CD1D /* WordleAverage Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "WordleAverage Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8386CDD27A0C65B00E1CD1D /* Scordle Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Scordle Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8386CE227A0C65B00E1CD1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F8386CE727A0C65B00E1CD1D /* WordleAverage Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "WordleAverage Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8386CE727A0C65B00E1CD1D /* Scordle Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Scordle Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8386CEC27A0C65B00E1CD1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F8386CED27A0C65B00E1CD1D /* WordleAverage.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WordleAverage.entitlements; sourceTree = "<group>"; };
-		F8FEF17427A0ED63005CBD56 /* AppIcon.appiconset */ = {isa = PBXFileReference; lastKnownFileType = folder; name = AppIcon.appiconset; path = "../../../../../var/folders/pk/c_ztn_x12fx5m7rb_677wr0w0000gn/T/com.goodsnooze.bakery/668F6B82-A21E-4778-AD66-F0240E9F844E-2760-0000001143696B8E/AppIcon.appiconset"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,7 +160,6 @@
 			children = (
 				F8386CAE27A0C65900E1CD1D /* ViewController.swift */,
 				F8386CAF27A0C65A00E1CD1D /* Assets.xcassets */,
-				F8FEF17427A0ED63005CBD56 /* AppIcon.appiconset */,
 				F8386CA827A0C65900E1CD1D /* Resources */,
 			);
 			path = "Shared (App)";
@@ -203,10 +199,10 @@
 		F8386CC027A0C65B00E1CD1D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F8386CBF27A0C65B00E1CD1D /* WordleAverage.app */,
-				F8386CD127A0C65B00E1CD1D /* WordleAverage.app */,
-				F8386CDD27A0C65B00E1CD1D /* WordleAverage Extension.appex */,
-				F8386CE727A0C65B00E1CD1D /* WordleAverage Extension.appex */,
+				F8386CBF27A0C65B00E1CD1D /* Scordle.app */,
+				F8386CD127A0C65B00E1CD1D /* Scordle.app */,
+				F8386CDD27A0C65B00E1CD1D /* Scordle Extension.appex */,
+				F8386CE727A0C65B00E1CD1D /* Scordle Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -253,9 +249,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F8386CBE27A0C65B00E1CD1D /* WordleAverage (iOS) */ = {
+		F8386CBE27A0C65B00E1CD1D /* Scordle (iOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F8386D1227A0C65B00E1CD1D /* Build configuration list for PBXNativeTarget "WordleAverage (iOS)" */;
+			buildConfigurationList = F8386D1227A0C65B00E1CD1D /* Build configuration list for PBXNativeTarget "Scordle (iOS)" */;
 			buildPhases = (
 				F8386CBB27A0C65B00E1CD1D /* Sources */,
 				F8386CBC27A0C65B00E1CD1D /* Frameworks */,
@@ -267,14 +263,14 @@
 			dependencies = (
 				F8386CE027A0C65B00E1CD1D /* PBXTargetDependency */,
 			);
-			name = "WordleAverage (iOS)";
+			name = "Scordle (iOS)";
 			productName = "WordleAverage (iOS)";
-			productReference = F8386CBF27A0C65B00E1CD1D /* WordleAverage.app */;
+			productReference = F8386CBF27A0C65B00E1CD1D /* Scordle.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F8386CD027A0C65B00E1CD1D /* WordleAverage (macOS) */ = {
+		F8386CD027A0C65B00E1CD1D /* Scordle (macOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F8386D1927A0C65B00E1CD1D /* Build configuration list for PBXNativeTarget "WordleAverage (macOS)" */;
+			buildConfigurationList = F8386D1927A0C65B00E1CD1D /* Build configuration list for PBXNativeTarget "Scordle (macOS)" */;
 			buildPhases = (
 				F8386CCD27A0C65B00E1CD1D /* Sources */,
 				F8386CCE27A0C65B00E1CD1D /* Frameworks */,
@@ -286,14 +282,14 @@
 			dependencies = (
 				F8386CEA27A0C65B00E1CD1D /* PBXTargetDependency */,
 			);
-			name = "WordleAverage (macOS)";
+			name = "Scordle (macOS)";
 			productName = "WordleAverage (macOS)";
-			productReference = F8386CD127A0C65B00E1CD1D /* WordleAverage.app */;
+			productReference = F8386CD127A0C65B00E1CD1D /* Scordle.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F8386CDC27A0C65B00E1CD1D /* WordleAverage Extension (iOS) */ = {
+		F8386CDC27A0C65B00E1CD1D /* Scordle Extension (iOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F8386D0E27A0C65B00E1CD1D /* Build configuration list for PBXNativeTarget "WordleAverage Extension (iOS)" */;
+			buildConfigurationList = F8386D0E27A0C65B00E1CD1D /* Build configuration list for PBXNativeTarget "Scordle Extension (iOS)" */;
 			buildPhases = (
 				F8386CD927A0C65B00E1CD1D /* Sources */,
 				F8386CDA27A0C65B00E1CD1D /* Frameworks */,
@@ -303,14 +299,14 @@
 			);
 			dependencies = (
 			);
-			name = "WordleAverage Extension (iOS)";
+			name = "Scordle Extension (iOS)";
 			productName = "WordleAverage Extension (iOS)";
-			productReference = F8386CDD27A0C65B00E1CD1D /* WordleAverage Extension.appex */;
+			productReference = F8386CDD27A0C65B00E1CD1D /* Scordle Extension.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
-		F8386CE627A0C65B00E1CD1D /* WordleAverage Extension (macOS) */ = {
+		F8386CE627A0C65B00E1CD1D /* Scordle Extension (macOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F8386D1527A0C65B00E1CD1D /* Build configuration list for PBXNativeTarget "WordleAverage Extension (macOS)" */;
+			buildConfigurationList = F8386D1527A0C65B00E1CD1D /* Build configuration list for PBXNativeTarget "Scordle Extension (macOS)" */;
 			buildPhases = (
 				F8386CE327A0C65B00E1CD1D /* Sources */,
 				F8386CE427A0C65B00E1CD1D /* Frameworks */,
@@ -320,9 +316,9 @@
 			);
 			dependencies = (
 			);
-			name = "WordleAverage Extension (macOS)";
+			name = "Scordle Extension (macOS)";
 			productName = "WordleAverage Extension (macOS)";
-			productReference = F8386CE727A0C65B00E1CD1D /* WordleAverage Extension.appex */;
+			productReference = F8386CE727A0C65B00E1CD1D /* Scordle Extension.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
@@ -349,7 +345,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F8386CA627A0C65800E1CD1D /* Build configuration list for PBXProject "WordleAverage" */;
+			buildConfigurationList = F8386CA627A0C65800E1CD1D /* Build configuration list for PBXProject "Scordle" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -362,10 +358,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F8386CBE27A0C65B00E1CD1D /* WordleAverage (iOS) */,
-				F8386CD027A0C65B00E1CD1D /* WordleAverage (macOS) */,
-				F8386CDC27A0C65B00E1CD1D /* WordleAverage Extension (iOS) */,
-				F8386CE627A0C65B00E1CD1D /* WordleAverage Extension (macOS) */,
+				F8386CBE27A0C65B00E1CD1D /* Scordle (iOS) */,
+				F8386CD027A0C65B00E1CD1D /* Scordle (macOS) */,
+				F8386CDC27A0C65B00E1CD1D /* Scordle Extension (iOS) */,
+				F8386CE627A0C65B00E1CD1D /* Scordle Extension (macOS) */,
 			);
 		};
 /* End PBXProject section */
@@ -375,7 +371,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8FEF17527A0ED63005CBD56 /* AppIcon.appiconset in Resources */,
 				F8386CF027A0C65B00E1CD1D /* Icon.png in Resources */,
 				F8386CC827A0C65B00E1CD1D /* LaunchScreen.storyboard in Resources */,
 				F8386CEE27A0C65B00E1CD1D /* Main.html in Resources */,
@@ -394,7 +389,6 @@
 				F8386CF327A0C65B00E1CD1D /* Style.css in Resources */,
 				F8386CD727A0C65B00E1CD1D /* Main.storyboard in Resources */,
 				F8386CF527A0C65B00E1CD1D /* Script.js in Resources */,
-				F8FEF17627A0ED64005CBD56 /* AppIcon.appiconset in Resources */,
 				F8386CF927A0C65B00E1CD1D /* Assets.xcassets in Resources */,
 				F8386CEF27A0C65B00E1CD1D /* Main.html in Resources */,
 			);
@@ -465,12 +459,12 @@
 /* Begin PBXTargetDependency section */
 		F8386CE027A0C65B00E1CD1D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F8386CDC27A0C65B00E1CD1D /* WordleAverage Extension (iOS) */;
+			target = F8386CDC27A0C65B00E1CD1D /* Scordle Extension (iOS) */;
 			targetProxy = F8386CDF27A0C65B00E1CD1D /* PBXContainerItemProxy */;
 		};
 		F8386CEA27A0C65B00E1CD1D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F8386CE627A0C65B00E1CD1D /* WordleAverage Extension (macOS) */;
+			target = F8386CE627A0C65B00E1CD1D /* Scordle Extension (macOS) */;
 			targetProxy = F8386CE927A0C65B00E1CD1D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -644,7 +638,7 @@
 					SafariServices,
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = me.sshahab.WordleAverage.Extension;
-				PRODUCT_NAME = "WordleAverage Extension";
+				PRODUCT_NAME = "Scordle Extension";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -675,7 +669,7 @@
 					SafariServices,
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = me.sshahab.WordleAverage.Extension;
-				PRODUCT_NAME = "WordleAverage Extension";
+				PRODUCT_NAME = "Scordle Extension";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -692,11 +686,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = FQ46J98RC9;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "iOS (App)/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = WordleAverage;
+				INFOPLIST_KEY_CFBundleDisplayName = Scordle;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -707,7 +701,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
@@ -715,7 +709,7 @@
 					WebKit,
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = me.sshahab.WordleAverage;
-				PRODUCT_NAME = WordleAverage;
+				PRODUCT_NAME = Scordle;
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -730,11 +724,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = FQ46J98RC9;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "iOS (App)/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = WordleAverage;
+				INFOPLIST_KEY_CFBundleDisplayName = Scordle;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -745,7 +739,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
@@ -753,7 +747,7 @@
 					WebKit,
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = me.sshahab.WordleAverage;
-				PRODUCT_NAME = WordleAverage;
+				PRODUCT_NAME = Scordle;
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -785,7 +779,7 @@
 					SafariServices,
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = me.sshahab.WordleAverage.Extension;
-				PRODUCT_NAME = "WordleAverage Extension";
+				PRODUCT_NAME = "Scordle Extension";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -816,7 +810,7 @@
 					SafariServices,
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = me.sshahab.WordleAverage.Extension;
-				PRODUCT_NAME = "WordleAverage Extension";
+				PRODUCT_NAME = "Scordle Extension";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -851,7 +845,7 @@
 					WebKit,
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = me.sshahab.WordleAverage;
-				PRODUCT_NAME = WordleAverage;
+				PRODUCT_NAME = Scordle;
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -885,7 +879,7 @@
 					WebKit,
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = me.sshahab.WordleAverage;
-				PRODUCT_NAME = WordleAverage;
+				PRODUCT_NAME = Scordle;
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -895,7 +889,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F8386CA627A0C65800E1CD1D /* Build configuration list for PBXProject "WordleAverage" */ = {
+		F8386CA627A0C65800E1CD1D /* Build configuration list for PBXProject "Scordle" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F8386D0C27A0C65B00E1CD1D /* Debug */,
@@ -904,7 +898,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F8386D0E27A0C65B00E1CD1D /* Build configuration list for PBXNativeTarget "WordleAverage Extension (iOS)" */ = {
+		F8386D0E27A0C65B00E1CD1D /* Build configuration list for PBXNativeTarget "Scordle Extension (iOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F8386D0F27A0C65B00E1CD1D /* Debug */,
@@ -913,7 +907,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F8386D1227A0C65B00E1CD1D /* Build configuration list for PBXNativeTarget "WordleAverage (iOS)" */ = {
+		F8386D1227A0C65B00E1CD1D /* Build configuration list for PBXNativeTarget "Scordle (iOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F8386D1327A0C65B00E1CD1D /* Debug */,
@@ -922,7 +916,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F8386D1527A0C65B00E1CD1D /* Build configuration list for PBXNativeTarget "WordleAverage Extension (macOS)" */ = {
+		F8386D1527A0C65B00E1CD1D /* Build configuration list for PBXNativeTarget "Scordle Extension (macOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F8386D1627A0C65B00E1CD1D /* Debug */,
@@ -931,7 +925,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F8386D1927A0C65B00E1CD1D /* Build configuration list for PBXNativeTarget "WordleAverage (macOS)" */ = {
+		F8386D1927A0C65B00E1CD1D /* Build configuration list for PBXNativeTarget "Scordle (macOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F8386D1A27A0C65B00E1CD1D /* Debug */,
